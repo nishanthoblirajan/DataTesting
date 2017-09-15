@@ -9,9 +9,12 @@
     tools:context="com.zaptrapp.lynda1.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/put"
         android:text="Hello World!"/>
+
+    <ListView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/listView"></ListView>
 
 </LinearLayout>
